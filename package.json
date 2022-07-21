@@ -1,0 +1,26 @@
+{
+  "name": "typeye",
+  "version": "1.0.0",
+  "description": "Antweight library for runtime type checking.",
+  "main": "./build/index.js",
+  "typings": "./build/Typeye.d.ts",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "start": "node build",
+    "publish": "npm run build && npm publish",
+    "dev": "ts-node-dev --respawn --transpile-only src",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Raul Vitor",
+    "email": "mailctrlraul@gmail.com",
+    "url": "https://github.com/ctrlraul"
+  },
+
+  "license": "ISC"
+}

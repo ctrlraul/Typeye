@@ -1,0 +1,10 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "build",
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "target": "ES5"
+  }
+}
